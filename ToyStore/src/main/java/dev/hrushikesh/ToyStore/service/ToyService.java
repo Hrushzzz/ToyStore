@@ -39,13 +39,6 @@ public class ToyService {
         return toyRepository.findAll();
     }
 
-//    public Toy updateToy(int toyId, Toy newToy){
-//        Toy savedToy = getToy(toyId);
-//        newToy.setId(toyId);
-//        Toy updatedToy = toyRepository.save(newToy);
-//        return updatedToy;
-//    }
-
     public Toy updateToy(int toyId, Toy newToy) {
         Toy savedToy = getToy(toyId);
 
